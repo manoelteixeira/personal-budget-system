@@ -28,22 +28,22 @@
     > POST /envelopes
     ~~~json
     {
-        "label": "<Envelope Label>",
-        "value": <Envelope Value>
+        "label": "<Envelope_Label>",
+        "value": <Envelope_Value>
     }
     ~~~
 - Update envelope
     > POST /envelope/update/:id
     ~~~json
     {
-        "value": <New Value>
+        "value": <New_Value>
     }
     ~~~
 - Transfer funds between envelope
     > POST /envelopes/transfer/:from/:to
     ~~~json
     {
-        "value": <Value to be Transfered>
+        "value": <Value_to_be_Transfered>
     }
     ~~~
 - Delete envelope
